@@ -38,7 +38,7 @@ function App() {
         setUserProgress(prev => ({ ...prev, ...newProgress }));
     };
     return (
-        <BrowserRouter>
+        <BrowserRouter basename="/Concepts">
             <Routes>
                 <Route path="/" element={<MainLayout />}>
                     <Route index element={<HomePage userProgress={userProgress}/>}/>
