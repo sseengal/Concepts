@@ -1,0 +1,57 @@
+{
+  "id": "counting-to-100",
+  "title": "Counting to 100",
+  "description": "Learn to count numbers up to 100",
+  "order": 1,
+  "content_type": "mixed",
+  "is_premium": false,
+  "sections": [
+    {
+      "type": "introduction",
+      "content": "# Counting to 100\n\nIn this lesson, we'll learn how to count numbers from 1 all the way to 100! Counting is one of the most important math skills you'll learn."
+    },
+    {
+      "type": "video",
+      "source": "youtube",
+      "title": "Counting to 100",
+      "url": "https://www.youtube.com/embed/0TgLtF3PMOc",
+      "description": "A fun video showing how to count from 1 to 100"
+    },
+    {
+      "type": "text",
+      "content": "## Counting by Ones\n\nWhen we count by ones, we say each number in order:\n\n1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, and so on.\n\nNotice the pattern as we count:\n- After 9 comes 10\n- After 19 comes 20\n- After 29 comes 30\n\nEach time we reach a 9, the next number starts a new group of ten!"
+    },
+    {
+      "type": "interactive",
+      "component": "NumberLine",
+      "props": {
+        "start": 1,
+        "end": 20,
+        "highlightEvery": 1,
+        "interactive": true
+      }
+    },
+    {
+      "type": "text",
+      "content": "## Counting by Tens\n\nWe can also count by tens, which means we skip nine numbers each time:\n\n10, 20, 30, 40, 50, 60, 70, 80, 90, 100\n\nThis is a faster way to count to 100!"
+    },
+    {
+      "type": "interactive",
+      "component": "NumberLine",
+      "props": {
+        "start": 0,
+        "end": 100,
+        "highlightEvery": 10,
+        "interactive": true
+      }
+    },
+    {
+      "type": "text",
+      "content": "## Writing Numbers\n\nRemember that each number has its own symbol:\n- 1 is written as '1'\n- 10 is written as '10'\n- 100 is written as '100'\n\nWhen we write two-digit numbers like 42, the '4' tells us how many tens (4 tens = 40) and the '2' tells us how many ones (2 ones = 2).\n\nSo 42 = 40 + 2"
+    },
+    {
+      "type": "conclusion",
+      "content": "Great job learning to count to 100! Now you're ready to try some exercises to practice what you've learned."
+    }
+  ]
+}

@@ -1,0 +1,94 @@
+{
+  "id": "counting-practice",
+  "lesson_id": "counting-to-100",
+  "title": "Counting Practice",
+  "description": "Practice counting and identifying numbers up to 100",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "multiple-choice",
+      "text": "What comes after 45?",
+      "options": ["44", "45", "46", "50"],
+      "correct_answer": "46",
+      "explanation": "When counting, we add 1 to get the next number. So after 45 comes 46."
+    },
+    {
+      "id": "q2",
+      "type": "multiple-choice",
+      "text": "What comes before 30?",
+      "options": ["20", "29", "31", "39"],
+      "correct_answer": "29",
+      "explanation": "When counting backwards, we subtract 1 to get the previous number. So before 30 comes 29."
+    },
+    {
+      "id": "q3",
+      "type": "fill-in",
+      "text": "Count by tens: 10, 20, 30, ___, 50",
+      "correct_answer": "40",
+      "explanation": "When counting by tens, we add 10 each time. After 30, we add 10 to get 40."
+    },
+    {
+      "id": "q4",
+      "type": "multiple-choice",
+      "text": "Which number is between 56 and 58?",
+      "options": ["55", "57", "59", "60"],
+      "correct_answer": "57",
+      "explanation": "The number between 56 and 58 is 57."
+    },
+    {
+      "id": "q5",
+      "type": "true-false",
+      "text": "99 comes before 100.",
+      "correct_answer": true,
+      "explanation": "Yes, when counting up, 99 comes right before 100."
+    },
+    {
+      "id": "q6",
+      "type": "matching",
+      "text": "Match the number words to their numbers:",
+      "pairs": [
+        {"left": "twenty-five", "right": "25"},
+        {"left": "forty-two", "right": "42"},
+        {"left": "seventy-eight", "right": "78"},
+        {"left": "ninety", "right": "90"}
+      ],
+      "explanation": "Number words can be written as digits: twenty-five is 25, forty-two is 42, seventy-eight is 78, and ninety is 90."
+    },
+    {
+      "id": "q7",
+      "type": "ordering",
+      "text": "Put these numbers in order from smallest to largest:",
+      "items": ["35", "53", "25", "52"],
+      "correct_order": ["25", "35", "52", "53"],
+      "explanation": "From smallest to largest: 25, 35, 52, 53."
+    },
+    {
+      "id": "q8",
+      "type": "multiple-choice",
+      "text": "How many tens are in the number 70?",
+      "options": ["0", "7", "10", "70"],
+      "correct_answer": "7",
+      "explanation": "The number 70 has 7 tens (7 × 10 = 70)."
+    },
+    {
+      "id": "q9",
+      "type": "fill-in",
+      "text": "What is 10 more than 45?",
+      "correct_answer": "55",
+      "explanation": "To find 10 more than a number, we add 10. So 45 + 10 = 55."
+    },
+    {
+      "id": "q10",
+      "type": "multiple-choice",
+      "text": "Which group of numbers is in the correct order?",
+      "options": [
+        "23, 32, 33, 43",
+        "87, 78, 76, 67",
+        "51, 15, 50, 5",
+        "99, 90, 19, 9"
+      ],
+      "correct_answer": "23, 32, 33, 43",
+      "explanation": "The numbers 23, 32, 33, 43 are in ascending order (smallest to largest)."
+    }
+  ]
+}

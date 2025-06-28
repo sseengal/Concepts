@@ -1,0 +1,140 @@
+{
+  "grades": [
+    {
+      "id": "year-2",
+      "name": "Year 2",
+      "topics": [
+        {
+          "id": "numbers-to-100",
+          "name": "Numbers to 100",
+          "order": 1,
+          "description": "Learn to count, read, write, and understand numbers up to 100.",
+          "icon": "123",
+          "lessons": [
+            {
+              "id": "counting-to-100",
+              "title": "Counting to 100",
+              "description": "Learn to count numbers up to 100",
+              "order": 1,
+              "duration": "15 min",
+              "is_premium": false
+            },
+            {
+              "id": "place-value",
+              "title": "Place Value",
+              "description": "Understanding tens and ones in two-digit numbers",
+              "order": 2,
+              "duration": "20 min",
+              "is_premium": false
+            },
+            {
+              "id": "comparing-numbers",
+              "title": "Comparing Numbers",
+              "description": "Learn to compare numbers using greater than, less than, and equal to",
+              "order": 3,
+              "duration": "15 min",
+              "is_premium": true
+            }
+          ]
+        },
+        {
+          "id": "addition-subtraction",
+          "name": "Addition and Subtraction",
+          "order": 2,
+          "description": "Learn to add and subtract two-digit numbers.",
+          "icon": "+-",
+          "lessons": [
+            {
+              "id": "adding-within-100",
+              "title": "Adding Within 100",
+              "description": "Learn strategies for adding two-digit numbers",
+              "order": 1,
+              "duration": "20 min",
+              "is_premium": false
+            },
+            {
+              "id": "subtracting-within-100",
+              "title": "Subtracting Within 100",
+              "description": "Learn strategies for subtracting two-digit numbers",
+              "order": 2,
+              "duration": "20 min",
+              "is_premium": false
+            },
+            {
+              "id": "word-problems",
+              "title": "Word Problems",
+              "description": "Solve real-world problems involving addition and subtraction",
+              "order": 3,
+              "duration": "25 min",
+              "is_premium": true
+            }
+          ]
+        },
+        {
+          "id": "shapes",
+          "name": "Shapes and Patterns",
+          "order": 3,
+          "description": "Identify and describe 2D and 3D shapes and patterns.",
+          "icon": "◯",
+          "lessons": [
+            {
+              "id": "2d-shapes",
+              "title": "2D Shapes",
+              "description": "Learn about circles, triangles, squares, and rectangles",
+              "order": 1,
+              "duration": "15 min",
+              "is_premium": false
+            },
+            {
+              "id": "3d-shapes",
+              "title": "3D Shapes",
+              "description": "Explore cubes, spheres, cylinders, and pyramids",
+              "order": 2,
+              "duration": "15 min",
+              "is_premium": false
+            },
+            {
+              "id": "patterns",
+              "title": "Patterns",
+              "description": "Identify and create repeating patterns",
+              "order": 3,
+              "duration": "20 min",
+              "is_premium": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "year-3",
+      "name": "Year 3",
+      "topics": [
+        {
+          "id": "multiplication-division",
+          "name": "Multiplication and Division",
+          "order": 1,
+          "description": "Learn multiplication tables and related division facts.",
+          "icon": "×÷",
+          "lessons": [
+            {
+              "id": "multiplication-tables",
+              "title": "Multiplication Tables",
+              "description": "Learn the 2, 5, and 10 times tables",
+              "order": 1,
+              "duration": "25 min",
+              "is_premium": false
+            },
+            {
+              "id": "division-facts",
+              "title": "Division Facts",
+              "description": "Understand the relationship between multiplication and division",
+              "order": 2,
+              "duration": "20 min",
+              "is_premium": true
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
