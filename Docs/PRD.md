@@ -96,7 +96,7 @@ Build a subscription-based educational web app, inspired by Khan Academy and IXL
 
 | Layer          | Technology (No-Code/Low-Code Focus)        | Rationale                                    |
 |----------------|-------------------------------------------|----------------------------------------------|
-| Frontend       | React.js (web), Tailwind CSS (UI)         | Modern, component-based UI framework         |
+| Frontend       | React.js (JavaScript with ES modules), Tailwind CSS (UI) | Modern, component-based UI framework with simplified JavaScript architecture |
 | Backend        | Minimal custom backend                    | Leverage APIs and services instead           |
 | Database       | Supabase (PostgreSQL)                     | Low-code database with built-in functionality |
 | Content        | Educational APIs, YouTube API, H5P        | Leverage existing content rather than build  |

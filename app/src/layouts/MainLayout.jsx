@@ -1,12 +1,9 @@
 import { Outlet } from 'react-router-dom';
 import { useState } from 'react';
 import { Link } from 'react-router-dom';
-
 const MainLayout = () => {
-  const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
-
-  return (
-    <div className="min-h-screen flex flex-col">
+    const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
+    return (<div className="min-h-screen flex flex-col">
       {/* Header */}
       <header className="bg-white shadow-sm">
         <div className="container-app py-4">
@@ -25,30 +22,24 @@ const MainLayout = () => {
             </nav>
 
             {/* Mobile menu button */}
-            <button
-              type="button"
-              className="md:hidden p-2 rounded-md text-gray-700"
-              onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
-            >
+            <button type="button" className="md:hidden p-2 rounded-md text-gray-700" onClick={() => setMobileMenuOpen(!mobileMenuOpen)}>
               <span className="sr-only">Open main menu</span>
               {/* Hamburger icon */}
               <svg className="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4 6h16M4 12h16M4 18h16" />
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4 6h16M4 12h16M4 18h16"/>
               </svg>
             </button>
           </div>
 
           {/* Mobile Navigation */}
-          {mobileMenuOpen && (
-            <div className="md:hidden mt-4 pb-4">
+          {mobileMenuOpen && (<div className="md:hidden mt-4 pb-4">
               <div className="flex flex-col space-y-4">
                 <Link to="/" className="text-gray-700 hover:text-blue-600" onClick={() => setMobileMenuOpen(false)}>Home</Link>
                 <Link to="/grade/year-2" className="text-gray-700 hover:text-blue-600" onClick={() => setMobileMenuOpen(false)}>Year 2</Link>
                 <Link to="/grade/year-3" className="text-gray-700 hover:text-blue-600" onClick={() => setMobileMenuOpen(false)}>Year 3</Link>
                 <span className="text-gray-700 cursor-not-allowed opacity-50">Premium</span>
               </div>
-            </div>
-          )}
+            </div>)}
         </div>
       </header>
 
@@ -88,8 +79,6 @@ const MainLayout = () => {
           </div>
         </div>
       </footer>
-    </div>
-  );
+    </div>);
 };
-
 export default MainLayout;

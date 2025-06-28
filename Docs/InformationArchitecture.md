@@ -68,7 +68,7 @@ Home
   - Streak calendar
   - Recommended next steps
 
-## Frontend Data Structure (Initial Implementation)
+## Frontend Data Structure (JavaScript with ES Modules Implementation)
 
 ### JSON Data Models
 
